@@ -4,7 +4,7 @@ namespace GoogleAssistantV2\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use BotMan\BotMan\Drivers\DriverManager;
-use GoogleAssistantV2;
+use GoogleAssistantV2\GoogleAssistantDriver;
 use BotMan\Studio\Providers\StudioServiceProvider;
 
 class GoogleAssistantServiceProvider extends ServiceProvider
