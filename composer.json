@@ -27,7 +27,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "BotMan\\Drivers\\GoogleAssistant\\": "src/"
+      "GoogleAssistant\\": "src/"
     }
   },
   "require": {
@@ -41,7 +41,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "BotMan\\Drivers\\GoogleAssistant\\Providers\\GoogleAssistantServiceProvider"
+        "GoogleAssistant\\Providers\\GoogleAssistantServiceProvider"
       ]
     }
   }
