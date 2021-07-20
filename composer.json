@@ -27,7 +27,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "GoogleAssistant\\": "src/"
+      "GoogleAssistantV2\\": "src/"
     }
   },
   "require": {
