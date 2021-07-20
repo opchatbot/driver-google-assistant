@@ -1,10 +1,10 @@
 <?php
 
-namespace BotMan\Drivers\GoogleAssistant\Providers;
+namespace GoogleAssistantV2\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use BotMan\BotMan\Drivers\DriverManager;
-use BotMan\Drivers\GoogleAssistant\GoogleAssistantDriver;
+use GoogleAssistantV2;
 use BotMan\Studio\Providers\StudioServiceProvider;
 
 class GoogleAssistantServiceProvider extends ServiceProvider
@@ -16,7 +16,7 @@ class GoogleAssistantServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        if (! $this->isRunningInBotManStudio()) {
+        if (!$this->isRunningInBotManStudio()) {
             $this->loadDrivers();
         }
     }

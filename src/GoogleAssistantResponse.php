@@ -1,6 +1,6 @@
 <?php
 
-namespace BotMan\Drivers\GoogleAssistant;
+namespace GoogleAssistantV2;
 
 
 class GoogleAssistantResponse
@@ -22,7 +22,7 @@ class GoogleAssistantResponse
      *
      * @return array
      */
-    public function render() : array
+    public function render(): array
     {
         return [
             'payload' => (object) [

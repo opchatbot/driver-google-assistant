@@ -1,6 +1,6 @@
 <?php
 
-namespace BotMan\Drivers\GoogleAssistant;
+namespace GoogleAssistantV2;
 
 use BotMan\BotMan\Drivers\Events\GenericEvent;
 use BotMan\BotMan\Interfaces\DriverInterface;
