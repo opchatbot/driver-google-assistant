@@ -41,7 +41,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "GoogleAssistant\\Providers\\GoogleAssistantServiceProvider"
+        "GoogleAssistantV2\\Providers\\GoogleAssistantServiceProvider"
       ]
     }
   }
